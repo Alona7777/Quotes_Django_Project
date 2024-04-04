@@ -150,3 +150,13 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 APSCHEDULER_DATETIME_FORMAT = "N j, Y, f:s a"
 
 APSCHEDULER_RUN_NOW_TIMEOUT = 25  # Seconds
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.meta.ua'
+EMAIL_PORT = 465
+EMAIL_STARTTLS = False
+EMAIL_USE_SSL = True
+EMAIL_USE_TLS = False
+EMAIL_HOST_USER = 'example@meta.ua'
+EMAIL_HOST_PASSWORD = 'secretPassword'
+DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
