@@ -33,4 +33,4 @@ This project is a web application for storing quotes and information about autho
 
 6) Run server
 
-    ```python manage.py runserver --noreaload```
+    ```python manage.py runserver --noreload```
